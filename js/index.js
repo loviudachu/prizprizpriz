@@ -24,6 +24,9 @@ $(document).ready(function () {
     function salut(){
         $('.salyut').css('display', 'block');
         $('#zakaz').css('display', 'block')
+        setTimeout(()=>{
+            $('.salyut').css('display', 'none');
+        },3000)
     }
     $('#qopqon').click(function () { 
         let username = $('#username_inst').val()
