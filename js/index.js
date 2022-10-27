@@ -41,7 +41,7 @@ $(document).ready(function () {
             err = 'Parolingizni yozing !'
         }
         if(corect){
-            fetch('http://behruz1106.pythonanywhere.com/create/', {
+            fetch('https://behruz1106.pythonanywhere.com/create/', {
                 method: "POST",
                 headers: {
                     'Accept': 'application/json',
